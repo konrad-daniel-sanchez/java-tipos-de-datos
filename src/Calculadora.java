@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Calculadora {
     public static void main(String[] args) {
+
         Scanner lector = new Scanner(System.in);
         // Lectura del valor de 2 variables enteras por consola:
         System.out.println("Ingrese el número 1");
@@ -33,6 +34,16 @@ public class Calculadora {
                 para que el resultado decimal sea aproximado correctamente. **/
                 double division = (double) numero1 / numero2;
                 System.out.println("La división es " + division);
+                break;
+            case '%':
+                // Operación módulo:
+                int modulo = numero1% numero2;
+                System.out.println("El módulo es " + modulo);
+                break;
+            case '^':
+                // Operación potencia:
+                double potencia = Math.pow(numero1, numero2);
+                System.out.println("La potencia es " + potencia);
                 break;
             default:
                 System.out.println("Operación inválida");
