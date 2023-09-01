@@ -13,7 +13,7 @@ public class Set_de_tenis {
         } else if ( m < 6 && n < 6) {
             System.out.println("El set todavía no termina");
         } else if (m == 6 && n == 6) {
-            System.out.println("Resultado final: 7-6");
+            System.out.println("Empate");
         } else if ( m >= 6 && (m - n) >= 2) {
             System.out.println("El jugador A ganó el set");
         } else if ( n >= 6 && (n - m) >= 2) {
