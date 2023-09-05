@@ -22,7 +22,7 @@ public class Decodificador_Cesar {
                 int baseAscii = (int)'a';
                 if(mayuscula)
                     baseAscii = (int)'A';
-                int nuevoAscii = (ascii - baseAscii - veces) % 26 + baseAscii;
+                int nuevoAscii = (ascii - baseAscii - veces+26) % 26 + baseAscii;
                 char nuevaLetra = (char)nuevoAscii;
                 mensajeOriginal += nuevaLetra;
             }

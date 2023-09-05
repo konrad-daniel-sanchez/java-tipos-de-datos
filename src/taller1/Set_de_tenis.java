@@ -1,3 +1,5 @@
+package taller1;
+
 import java.util.Scanner;
 
 public class Set_de_tenis {

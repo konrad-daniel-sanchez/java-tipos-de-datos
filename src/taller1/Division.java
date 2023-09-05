@@ -1,3 +1,4 @@
+package taller1;
 
 import java.util.Scanner;
 
